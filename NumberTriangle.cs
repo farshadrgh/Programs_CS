@@ -4,8 +4,8 @@ using System;
    {  
      public static void Main(string[] args)  
       {  
-       int  i,j,k,l,n;           
-       Console.Write("Enter the Range=");    
+       int  i, j, k, l, n;           
+       Console.Write("Enter the range = ");    
        n= int.Parse(Console.ReadLine());     
        for(i=1; i<=n; i++)      
        {          
@@ -13,11 +13,11 @@ using System;
         {      
          Console.Write(" ");      
         }      
-        for(k=1;k<=i;k++)      
+        for(k=1; k<=i; k++)      
         {      
          Console.Write(k);      
         }      
-        for(l=i-1;l>=1;l--)      
+        for(l=i-1; l>=1; l--)      
         {      
         Console.Write(l);      
         }      
